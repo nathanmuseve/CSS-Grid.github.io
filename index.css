@@ -156,17 +156,17 @@ footer {
   }
 	.grid-items:nth-of-type(1) {
 		background-color: rgb(11, 11, 63);
-		grid-column: 1/span 1;
+		grid-column: 1fr;
 		/* grid-column-start: 2;
 		grid-column-end: 4; */
 	}
 	.grid-items:nth-of-type(6) {
 		background-color: rgb(39, 4, 22);
-		grid-row: 1/span 1;
+		grid-row: 1fr;
 	}
 	.grid-items:nth-of-type(7) {
 		background-color: rgb(39, 4, 22);
-		grid-column: 1/span 1;
+		grid-column: 1fr;
 	}
 	
 	/* MQ for grid-contaner1  */
@@ -177,22 +177,22 @@ footer {
   }
 	.grid-items1:nth-of-type(1) {
 		background-color: grey ;
-		grid-area: 1 / 1 / span 1 /1;
+		grid-area: 1fr;
 	}
 	.grid-items1:nth-of-type(3) {
 		background-color: rgb(183, 183, 230);
-		grid-area: 1 / 1 / 2 / span 1;
+		grid-area: 1fr;
 	}
 	.grid-items1:nth-of-type(4) {
 		background-color: rgb(65, 65, 175);
-		grid-area: 1 / 2 / 1 / span 1;
+		grid-area: 1fr;
 	}
 	.grid-items1:nth-of-type(5) {
 		background-color: rgb(201, 182, 182) ;
 	}
 	.grid-items1:nth-of-type(8) {
 		background-color: rgb(75, 75, 112);
-		grid-area: 1 / 1 / 2 / span 1;
+		grid-area: 1fr;
 	}
 		/* MQ for grid-contaner2  */
 
@@ -207,17 +207,17 @@ footer {
   }
 	.grid-items:nth-of-type(1) {
 		background-color: rgb(11, 11, 63);
-		grid-column: 1/span 1;
+		grid-column: 1fr;
 		/* grid-column-start: 2;
 		grid-column-end: 4; */
 	}
 	.grid-items:nth-of-type(6) {
 		background-color: rgb(39, 4, 22);
-		grid-row: 1/span 1;
+		grid-row: 1fr;
 	}
 	.grid-items:nth-of-type(7) {
 		background-color: rgb(39, 4, 22);
-		grid-column: 1/span 1;
+		grid-column: 1fr;
 	}
 	
 	/* MQ for grid-contaner1  */
@@ -227,22 +227,22 @@ footer {
   }
 	.grid-items1:nth-of-type(1) {
 		background-color: grey ;
-		grid-area: 1 / 1 / span 2 /1;
+		grid-area: 2fr;
 	}
 	.grid-items1:nth-of-type(3) {
 		background-color: rgb(183, 183, 230);
-		grid-area: 1 / 2 / 3 / span 1;
+		grid-area: 2fr;
 	}
 	.grid-items1:nth-of-type(4) {
 		background-color: rgb(65, 65, 175);
-		grid-area: 1 / 2 / 1 / span 1;
+		grid-area: 2fr;
 	}
 	.grid-items1:nth-of-type(5) {
 		background-color: rgb(201, 182, 182) ;
 	}
 	.grid-items1:nth-of-type(8) {
 		background-color: rgb(75, 75, 112);
-		grid-area: 1 / 1 / 3 / span 2;
+		grid-area: 2fr;
 	}
 		/* MQ for grid-contaner2  */
 
@@ -303,4 +303,4 @@ footer {
 		grid-template-rows: auto auto auto auto;
 	}
 }
-THE END
+/* THE END OF CSS */
